@@ -32,6 +32,6 @@ Each step has its own validation rules, and users can only proceed if the curren
 
 Clone the repo:
 ```bash
-git clone https://github.com/your-username/multi-step-form.git
+git clone https://github.com/Vandan-Bhangale/multi-step-form.git
 cd multi-step-form
 ```

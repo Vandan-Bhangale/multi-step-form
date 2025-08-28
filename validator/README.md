@@ -1,12 +1,37 @@
-# React + Vite
+# Multi-Step Form with Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-step (wizard) form built with **React, Formik, and Yup**.  
+Each step has its own validation rules, and users can only proceed if the current step is valid.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Multi-step form (3 steps: Personal Info → Address → Account Setup)  
+- Validation at each step using **Yup**  
+- Progress bar with smooth transitions  
+- Clean and responsive UI with **TailwindCSS**  
+- Back/Next navigation and final form submission  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🔗 Live Demo
+👉 [Click here to view live demo](https://multi-step-form-nine-xi.vercel.app/)  
+
+---
+
+## 🛠️ Tech Stack
+- **React** (Frontend)  
+- **Formik** (Form handling)  
+- **Yup** (Validation)  
+- **TailwindCSS** (Styling)  
+
+---
+
+## 📦 Installation
+
+Clone the repo:
+```bash
+git clone https://github.com/your-username/multi-step-form.git
+cd multi-step-form
+```
